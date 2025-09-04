@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'Produk - Lestari Lokal')
+@section('title', 'Produk - Pasar.id')
 
 @section('content')
-   <main class="container mx-auto px-4 py-8">
+    <main class="container mx-auto px-4 py-8">
         <div class="flex flex-col lg:flex-row">
             <!-- Sidebar Filters -->
             <div class="lg:w-1/4 pr-0 lg:pr-8 mb-8 lg:mb-0">
@@ -30,6 +30,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="mb-4 w-full md:w-full relative">
+                    <label for="search" class="sr-only">Cari Produk</label>
+                    <input type="text" id="search" name="search" placeholder="Cari Produk"
+                        class="w-full border border-gray-300 rounded-lg pl-10 pr-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
+                    <!-- Icon kaca pembesar -->
+                    <span class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </div>
+
                 @include('partials.product-grid')
                 <!-- Pagination -->
                 @include('partials.pagination')

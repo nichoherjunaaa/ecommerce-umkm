@@ -18,7 +18,9 @@
             </div>
             <div class="md:w-1/2 flex justify-center">
                 <div class="relative">
-                    <div class="bg-gray-200 border-2 border-dashed rounded-xl w-80 h-80 md:w-96 md:h-96"></div>
+                    <div class="bg-gray-200 border-2 border-dashed rounded-xl w-80 h-80 md:w-96 md:h-96">
+                        <img src="./hero.jpg" class="w-full h-full object-cover" alt="">
+                    </div>
                     <div class="absolute -bottom-6 -right-6 bg-secondary rounded-lg p-4 shadow-lg">
                         <div class="flex items-center">
                             <div class="bg-white rounded-full p-2 mr-3">

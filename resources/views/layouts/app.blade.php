@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Lestari Lokal')</title>
-    
+    <link rel="icon" type="image/png" href="{{ asset('./logo.png') }}">
     <!-- Tailwind & Fonts -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- Tailwind Config -->
     <script>
         tailwind.config = {
@@ -36,20 +39,61 @@
         .hero-pattern {
             background-image: url('data:image/svg+xml;base64,...');
         }
+
         .product-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-                        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+                0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
-        .craftsman-card:hover { transform: scale(1.02); }
-        .testimonial-card { transition: all 0.3s ease; }
-        .testimonial-card:hover { transform: translateY(-10px); }
+
+        .craftsman-card:hover {
+            transform: scale(1.02);
+        }
+
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .mission-card {
+            transition: all 0.3s ease;
+        }
+
+        .mission-card:hover {
+            transform: translateY(-10px);
+        }
+        .team-member {
+            transition: all 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .stats-card {
+            transition: all 0.3s ease;
+        }
+
+        .stats-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .value-card {
+            transition: all 0.3s ease;
+        }
+
+        
     </style>
 
     @stack('styles')
 </head>
+
 <body class="font-sans bg-light">
-    
+
     {{-- Header --}}
     @include('partials.header')
 
@@ -63,4 +107,5 @@
 
     @stack('scripts')
 </body>
+
 </html>

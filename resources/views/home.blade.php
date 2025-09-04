@@ -1,26 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'Beranda - Lestari Lokal')
+@section('title', 'Beranda - Pasar.id')
 
 @section('content')
     {{-- Hero --}}
-    @include('partials.hero')
+        @include('partials.hero')
 
     {{-- Categories --}}
-    @include('partials.categories')
+        @include('partials.categories')
 
     {{-- Featured Products --}}
-    @include('partials.featured-products')
+        @include('partials.featured-products')
 
-    {{-- Story --}}
-    {{-- @include('partials.story') --}}
-
-    {{-- Craftsmen --}}
-    {{-- @include('partials.craftsmen') --}}
-
-    {{-- Testimonials --}}
-    {{-- @include('partials.testimonials') --}}
-
-    {{-- CTA --}}
-    {{-- @include('partials.cta') --}}
 @endsection

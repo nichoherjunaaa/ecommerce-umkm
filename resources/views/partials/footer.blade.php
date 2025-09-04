@@ -4,10 +4,10 @@
             {{-- Company Info --}}
             <div>
                 <div class="flex items-center mb-6">
-                    <div class="bg-primary w-10 h-10 rounded-full flex items-center justify-center">
-                        <i class="fas fa-leaf text-white text-xl"></i>
+                    <div class="bg-white w-12 h-12 rounded-full flex items-center justify-center">
+                        <img src="{{ asset('./logo.png') }}" alt="Logo" class="w-10 h-10">
                     </div>
-                    <h2 class="ml-3 text-2xl font-serif font-bold">Lestari Lokal</h2>
+                    <h1 class="ml-3 text-2xl font-serif font-bold text-white">pasar.id</h1>
                 </div>
                 <p class="text-gray-400 mb-6">
                     Platform digital untuk memberdayakan pengrajin lokal Yogyakarta dengan akses pasar yang lebih luas.
@@ -51,23 +51,23 @@
                 <h3 class="text-lg font-bold mb-6">Kontak Kami</h3>
                 <ul class="space-y-4">
                     <li class="flex items-start">
-                        <i class="fas fa-map-marker-alt text-primary mt-1 mr-3"></i>
-                        <span class="text-gray-400">Jl. Malioboro No. 123, Yogyakarta, Indonesia</span>
+                        <i class="fas fa-map-marker-alt text-white mt-1 mr-3"></i>
+                        <span class="text-gray-400">Jl. Paingan, Maguwoharjo, Depok, Sleman, Indonesia</span>
                     </li>
                     <li class="flex items-center">
-                        <i class="fas fa-phone-alt text-primary mr-3"></i>
+                        <i class="fas fa-phone-alt text-white mr-3"></i>
                         <span class="text-gray-400">+62 812 3456 7890</span>
                     </li>
                     <li class="flex items-center">
-                        <i class="fas fa-envelope text-primary mr-3"></i>
-                        <span class="text-gray-400">info@lestari-lokal.id</span>
+                        <i class="fas fa-envelope text-white mr-3"></i>
+                        <span class="text-gray-400">info@pasar.id</span>
                     </li>
                 </ul>
             </div>
         </div>
-        
+
         <div class="pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-            <p>&copy; {{ date('Y') }} Lestari Lokal. Hak Cipta Dilindungi.</p>
+            <p>&copy; {{ date('Y') }} pasar.id . Hak Cipta Dilindungi.</p>
         </div>
     </div>
 </footer>

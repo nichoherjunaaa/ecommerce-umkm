@@ -1,5 +1,5 @@
 <div class="bg-white rounded-xl shadow-md p-6 mb-6">
-    <h2 class="text-xl font-bold text-dark mb-4">Filter Pengrajin</h2>
+    <h2 class="text-xl font-bold text-dark mb-4">Filter Produk</h2>
 
     <div class="mb-6">
         <h3 class="font-medium text-gray-700 mb-3">Kategori Kerajinan</h3>

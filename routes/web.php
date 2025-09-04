@@ -11,6 +11,12 @@ Route::get('/products', function () {
 Route::get('/craftman', function () {
     return view('craftman');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+
 Route::fallback(function () {
     return response()->view('errors.404', [], 404);
 });
