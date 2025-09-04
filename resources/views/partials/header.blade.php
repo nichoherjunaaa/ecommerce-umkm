@@ -1,5 +1,5 @@
 <header class="bg-white shadow-md sticky top-0 z-50">
-    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="container mx-auto py-4 flex justify-between items-center max-w-7xl">
         <div class="flex items-center">
             <div class="bg-primary w-10 h-10 rounded-full flex items-center justify-center">
                 <i class="fas fa-leaf text-white text-xl"></i>
@@ -11,8 +11,8 @@
             <a href="{{ url('/') }}" class="text-primary font-medium hover:text-accent transition">Beranda</a>
             <a href="{{ url('/product') }}" class="text-gray-600 hover:text-primary transition">Produk</a>
             <a href="{{ url('/craftman') }}" class="text-gray-600 hover:text-primary transition">Pengrajin</a>
-            <a href="#" class="text-gray-600 hover:text-primary transition">Tentang Kami</a>
-            <a href="#" class="text-gray-600 hover:text-primary transition">Kontak</a>
+            <a href="{{ url('/about') }}" class="text-gray-600 hover:text-primary transition">Tentang Kami</a>
+            <a href="{{ url('/contact') }}" class="text-gray-600 hover:text-primary transition">Kontak</a>
         </nav>
         
         <div class="flex items-center space-x-4">
@@ -21,7 +21,7 @@
                 <i class="fas fa-shopping-cart text-xl"></i>
                 <span class="absolute -top-2 -right-2 bg-secondary text-dark text-xs rounded-full h-5 w-5 flex items-center justify-center">3</span>
             </button>
-            <button class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-dark transition">Masuk</button>
+            <a href="{{ url('/login') }}" class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-dark transition">Masuk</a>
             <button class="md:hidden text-gray-600"><i class="fas fa-bars text-xl"></i></button>
         </div>
     </div>

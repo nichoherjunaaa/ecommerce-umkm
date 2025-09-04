@@ -1,5 +1,5 @@
 <footer class="bg-dark text-white pt-16 pb-8">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             {{-- Company Info --}}
             <div>

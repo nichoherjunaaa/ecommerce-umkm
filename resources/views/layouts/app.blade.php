@@ -54,7 +54,7 @@
     @include('partials.header')
 
     {{-- Main Content --}}
-    <main class="px-6 flex flex-col mx-auto">
+    <main class="max-w-7xl flex flex-col mx-auto">
         @yield('content')
     </main>
 
