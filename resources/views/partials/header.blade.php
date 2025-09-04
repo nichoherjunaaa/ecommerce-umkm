@@ -9,7 +9,7 @@
         
         <nav class="hidden md:flex space-x-8">
             <a href="{{ url('/') }}" class="text-primary font-medium hover:text-accent transition">Beranda</a>
-            <a href="{{ url('/product') }}" class="text-gray-600 hover:text-primary transition">Produk</a>
+            <a href="{{ url('/products') }}" class="text-gray-600 hover:text-primary transition">Produk</a>
             <a href="{{ url('/craftman') }}" class="text-gray-600 hover:text-primary transition">Pengrajin</a>
             <a href="{{ url('/about') }}" class="text-gray-600 hover:text-primary transition">Tentang Kami</a>
             <a href="{{ url('/contact') }}" class="text-gray-600 hover:text-primary transition">Kontak</a>
